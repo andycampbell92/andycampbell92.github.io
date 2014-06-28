@@ -81,7 +81,7 @@ h3.panel-title{
 div.section-tile{
 	float: left;
 	width: 40%;
-	margin-right: 60px;
+	margin-left: 60px;
 	min-height: 235px;
 }
 
@@ -95,7 +95,7 @@ div.panel-heading{
 
 div.panel-purple{
 	background-color: #6b4d56 !important;
-	width: 815px;
+	width: 82%;
 }
 
 
@@ -125,7 +125,7 @@ div.body-dark-grey{
 }
 
 div.panel-orange{
-	width: 815px;
+	width: 82%;
 	background-color: #D3643B !important;
 }
 
@@ -165,7 +165,7 @@ img.cv-thumb{
 
 img.side-img{
 	height: 262px;
-	margin-right: 60px;
+	margin-left: 60px;
 	float: left;
 }
 
@@ -186,16 +186,11 @@ img.floating-image{
 
 div.remote-care-holder{
 	max-width:417px;
-	margin-right: 60px;
+	margin-left: 60px;
 	float:left;
 }
 
-div.main-panel-body{
-	margin-left: 80px;
-}
-
 div.panel-body{
-	margin-left: 80px;
 	border: 0;
 	border-radius: 0;
 }
