@@ -167,6 +167,7 @@ img.cv-thumb{
 img.side-img{
 	height: 262px;
 	margin-left: 60px;
+	float: left;
 }
 
 img.pisa-img{
