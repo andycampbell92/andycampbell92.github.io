@@ -30,6 +30,10 @@ div.content-holder{
 	box-shadow: none;
 }
 
+div.content-holder-body{
+	padding-left: 90px;
+}
+
 div.section-links{
 	position: absolute;
 	right:	25px;
@@ -81,7 +85,7 @@ h3.panel-title{
 div.section-tile{
 	float: left;
 	width: 40%;
-	margin-left: 60px;
+	margin-right: 60px;
 	min-height: 235px;
 }
 
@@ -95,13 +99,13 @@ div.panel-heading{
 
 div.panel-purple{
 	background-color: #6b4d56 !important;
-	width: 82%;
+	width: 815px;
 }
 
 
 div.panel-dark-green{
 	background-color: #729C98 !important;
-	width: 60%;
+	width: 598px;
 }
 
 div.body-dark-green{
@@ -110,7 +114,7 @@ div.body-dark-green{
 
 div.panel-turquoise{
 	background-color: #00B4CC !important;
-	width: 34%;
+	width: 338px;
 }
 
 div.panel-dark-grey{
@@ -125,7 +129,7 @@ div.body-dark-grey{
 }
 
 div.panel-orange{
-	width: 82%;
+	width: 815px;
 	background-color: #D3643B !important;
 }
 
@@ -165,7 +169,7 @@ img.cv-thumb{
 
 img.side-img{
 	height: 262px;
-	margin-left: 60px;
+	margin-right: 60px;
 	float: left;
 }
 
@@ -186,7 +190,7 @@ img.floating-image{
 
 div.remote-care-holder{
 	max-width:417px;
-	margin-left: 60px;
+	margin-right: 60px;
 	float:left;
 }
 
