@@ -1,0 +1,50 @@
+div.recipe-holder{
+	width: 904px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+div.recipe-holder-heading{
+	text-align: center;
+	font: 400 1.2em/125% 'Delius Swash Caps', Helvetica, Sans-serif;
+	color: #455e5b !important;
+	background-color: #ffffcc !important;
+}
+
+div.recipe-holder-body{
+	background-color: #ffffcc;
+}
+
+h3{
+	color:#455e5b;
+	font-family: sub-header-font;
+}
+
+ul{
+	list-style-type: none;
+	padding-left:0;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
+}
+
+li{
+	color: #455e5b;
+	font-size: small;
+	font: 400 .8em/125% 'Delius Swash Caps', Helvetica, Sans-serif;
+	border-bottom: 1px solid #66bdc9;
+	list-style-type: none;
+	padding-left:0;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
+}	
+
+li.ingredients-list{
+	padding-left: 20px
+}
+
+li.method-list{
+	padding-left: 20px
+}
