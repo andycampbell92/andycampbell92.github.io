@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="stylesheets/styles.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.countdown.min.js"></script>
+    <script type="text/javascript">
+      var d = new Date();
+      d.setMonth(d.getMonth()+1);
+      var countdownDate = $.datepicker.formatDate('yy/mm/dd', d);
+
+      $( document ).ready(function() {
+        $('#clock').countdown(countdownDate).on('update.countdown', function(event) {
+          var $this = $(this).html(event.strftime(''
+            + '<span>%-D</span> day%!d '
+            + '<span>%H</span> hr '
+            + '<span>%M</span> min '
+            + '<span>%S</span> sec'));
+        });
+
+
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+    });
+    </script> 
+  </head>
+  <body>
+    <div class="container ">
+      <div class="row top-row title-list-tile">
+        <div class="col-md-12 column">
+          Project X
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 column clock-tile">
+          Launching:
+          <div id="clock"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 column twitter-tile">
+          <h2>Project Updates</h2>
+          <div>
+           <a class="twitter-timeline" href="https://twitter.com/projectX" data-widget-id="494471616361820160" data-chrome="nofooter noheader noscrollbar noborders" data-tweet-limit="3">Tweets by @projectX_tweets</a>
+          </div>
+        </div>
+        <div class="col-md-6 column mail-list-tile">
+          <h2>Mailing List</h2>
+          <h3 class="tile-text">For Project updates right to your inbox subscribe to our mailing list.</h3>
+          <div class="input-group mailing-list-input">
+             <input type="text" class="form-control" placeholder="Email">
+             <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Subscribe</button>
+             </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 column">
+          <div class="social-button-holder">
+            <a href="#"><span class="social-button twitter-logo"></span></a>
+            <a href="#"><span class="social-button linked-in-logo"></span></a>
+            <a href="#"><span class="social-button github-logo"></span></a>
+            <a href="#"><span class="social-button facebook-logo"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
